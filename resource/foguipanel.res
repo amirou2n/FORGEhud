@@ -1,0 +1,211 @@
+"Resource/UI/FoGUIPanel.res"
+{
+	"ControlName" "EditablePanel"
+	"fieldName" "FoGUIPanel"
+	"x" "0"
+	"y" "0"
+	"wide" "f0"
+	"tall" "f0"
+	"visible" "1"
+	"enabled" "1"
+	"paintbackground" "1"
+	"bgcolor_override" "0 0 0 150"
+
+	"RadarPanel"
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" "RadarPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "r20"
+		"ypos" "100"
+		"wide" "260"
+		"tall" "260"
+		"paintbackground" "1"
+		"bgcolor_override" "24 24 24 230"
+		"border" "ForgeBorderInset"
+
+		"RadarTitle"
+		{
+			"ControlName" "Label"
+			"fieldName" "RadarTitle"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "0"
+			"ypos" "4"
+			"wide" "260"
+			"tall" "18"
+			"text" "#TF_MVM_Radar"
+			"font" "HudFontSmall"
+			"fgcolor" "217 122 22 255"
+			"contentAlignment" "center"
+			"textAlignment" "center"
+		}
+
+		"RadarImage"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName" "RadarImage"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "5"
+			"ypos" "24"
+			"wide" "250"
+			"tall" "230"
+			"image" "hud/radar/radar_bg"
+			"scaleImage" "1"
+		}
+	}
+
+	"WavePanel"
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" "WavePanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "r20"
+		"ypos" "375"
+		"wide" "260"
+		"tall" "210"
+		"paintbackground" "1"
+		"bgcolor_override" "24 24 24 230"
+		"border" "ForgeBorderInset"
+
+		"WaveTitle"
+		{
+			"ControlName" "Label"
+			"fieldName" "WaveTitle"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "10"
+			"ypos" "10"
+			"wide" "240"
+			"tall" "20"
+			"text" "#TF_MVM_Wave"
+			"font" "Label.Font"
+			"fgcolor" "217 122 22 255"
+		}
+
+		"WaveNumber"
+		{
+			"ControlName" "Label"
+			"fieldName" "WaveNumber"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "10"
+			"ypos" "35"
+			"wide" "240"
+			"tall" "30"
+			"text" ""
+			"font" "Title.Font"
+			"fgcolor" "245 245 245 255"
+		}
+
+		"WaveDescription"
+		{
+			"ControlName" "Label"
+			"fieldName" "WaveDescription"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "10"
+			"ypos" "70"
+			"wide" "240"
+			"tall" "30"
+			"text" ""
+			"font" "Default.Font"
+			"fgcolor" "184 184 184 255"
+		}
+
+		"MoneyLabel"
+		{
+			"ControlName" "Label"
+			"fieldName" "MoneyLabel"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "10"
+			"ypos" "110"
+			"wide" "240"
+			"tall" "20"
+			"text" "#TF_MVM_Money"
+			"font" "Label.Font"
+			"fgcolor" "241 163 58 255"
+		}
+
+		"MoneyValue"
+		{
+			"ControlName" "Label"
+			"fieldName" "MoneyValue"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "10"
+			"ypos" "135"
+			"wide" "240"
+			"tall" "25"
+			"text" ""
+			"font" "Title.Font"
+			"fgcolor" "245 245 245 255"
+		}
+
+		"CreditsEarned"
+		{
+			"ControlName" "Label"
+			"fieldName" "CreditsEarned"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "10"
+			"ypos" "165"
+			"wide" "240"
+			"tall" "20"
+			"text" ""
+			"font" "HudFontSmall"
+			"fgcolor" "119 119 119 255"
+		}
+	}
+
+	"PopFileLabel"
+	{
+		"ControlName" "Label"
+		"fieldName" "PopFileLabel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "10"
+		"wide" "f0"
+		"tall" "18"
+		"text" ""
+		"font" "HudFontSmall"
+		"fgcolor" "119 119 119 255"
+		"contentAlignment" "center"
+		"textAlignment" "center"
+	}
+
+	"MissionPanel"
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" "MissionPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "r20"
+		"ypos" "595"
+		"wide" "260"
+		"tall" "100"
+		"paintbackground" "1"
+		"bgcolor_override" "24 24 24 230"
+		"border" "ForgeBorderInset"
+
+		"MissionTitle"
+		{
+			"ControlName" "Label"
+			"fieldName" "MissionTitle"
+			"visible" "1"
+			"enabled" "1"
+			"xpos" "10"
+			"ypos" "8"
+			"wide" "240"
+			"tall" "18"
+			"text" "#TF_MVM_Missions"
+			"font" "HudFontSmall"
+			"fgcolor" "217 122 22 255"
+		}
+	}
+}

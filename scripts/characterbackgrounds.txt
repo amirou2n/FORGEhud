@@ -1,0 +1,12 @@
+"characters"
+{
+	"scout"		"loadingscreens/scout"
+	"sniper"	"loadingscreens/sniper"
+	"soldier"	"loadingscreens/soldier"
+	"demoman"	"loadingscreens/demoman"
+	"medic"		"loadingscreens/medic"
+	"heavy"		"loadingscreens/heavy"
+	"spy"		"loadingscreens/spy"
+	"engineer"	"loadingscreens/engineer"
+	"pyro"		"loadingscreens/pyro"
+}

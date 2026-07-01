@@ -1,0 +1,896 @@
+"Resource/UI/training/basictraining/Classpanel.res"
+{
+	"ClassPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ClassPanel"
+		"xpos"	"0"
+		"ypos"	"0"
+		"zpos"	"2"
+		"wide"	"f0"
+		"tall"	"f0"
+		"visible"	"1"
+		"enabled"	"1"
+
+		"Background"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"Background"
+			"xpos"	"0"
+			"ypos"	"0"
+			"zpos"	"-1"
+			"wide"	"f0"
+			"tall"	"f0"
+			"visible"	"1"
+			"enabled"	"1"
+			"image"	"../VGUI/white"
+			"drawColor"	"24 24 24 255"
+		}
+
+		"Title"
+		{
+			"ControlName"	"Label"
+			"fieldName"	"Title"
+			"xpos"	"c-200"
+			"ypos"	"32"
+			"zpos"	"2"
+			"wide"	"400"
+			"tall"	"32"
+			"visible"	"1"
+			"enabled"	"1"
+			"labelText"	"#TF_SelectClass"
+			"textAlignment"	"center"
+			"font"	"TitleFont"
+			"fgcolor"	"217 122 22 255"
+		}
+
+		"Subtitle"
+		{
+			"ControlName"	"Label"
+			"fieldName"	"Subtitle"
+			"xpos"	"c-200"
+			"ypos"	"68"
+			"zpos"	"2"
+			"wide"	"400"
+			"tall"	"20"
+			"visible"	"1"
+			"enabled"	"1"
+			"labelText"	"#TF_BasicTraining_ClassSelect"
+			"textAlignment"	"center"
+			"font"	"DefaultFont"
+			"fgcolor"	"184 184 184 255"
+		}
+
+		"ClassGrid"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"	"ClassGrid"
+			"xpos"	"c-320"
+			"ypos"	"104"
+			"zpos"	"2"
+			"wide"	"640"
+			"tall"	"400"
+			"visible"	"1"
+			"enabled"	"1"
+
+			"ClassCard_Scout"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Scout"
+				"xpos"	"0"
+				"ypos"	"0"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_scout"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Scout"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+
+			"ClassCard_Soldier"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Soldier"
+				"xpos"	"130"
+				"ypos"	"0"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_soldier"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Soldier"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+
+			"ClassCard_Pyro"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Pyro"
+				"xpos"	"260"
+				"ypos"	"0"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_pyro"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Pyro"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+
+			"ClassCard_Demo"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Demo"
+				"xpos"	"390"
+				"ypos"	"0"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_demo"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Demo"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+
+			"ClassCard_Heavy"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Heavy"
+				"xpos"	"0"
+				"ypos"	"170"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_heavy"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Heavy"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+
+			"ClassCard_Engineer"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Engineer"
+				"xpos"	"130"
+				"ypos"	"170"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_engineer"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Engineer"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+
+			"ClassCard_Medic"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Medic"
+				"xpos"	"260"
+				"ypos"	"170"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_medic"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Medic"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+
+			"ClassCard_Sniper"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Sniper"
+				"xpos"	"390"
+				"ypos"	"170"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_sniper"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Sniper"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+
+			"ClassCard_Spy"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ClassCard_Spy"
+				"xpos"	"520"
+				"ypos"	"170"
+				"zpos"	"2"
+				"wide"	"120"
+				"tall"	"160"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"CardBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"34 34 34 230"
+				}
+
+				"CardBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"CardBorder"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"1"
+					"wide"	"120"
+					"tall"	"160"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"59 59 59 255"
+				}
+
+				"ClassIcon"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"ClassIcon"
+					"xpos"	"20"
+					"ypos"	"16"
+					"zpos"	"2"
+					"wide"	"80"
+					"tall"	"80"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../hud/class_sel_spy"
+				}
+
+				"ClassName"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassName"
+					"xpos"	"0"
+					"ypos"	"108"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"20"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_Spy"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"fgcolor"	"245 245 245 255"
+				}
+
+				"ClassStatus"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ClassStatus"
+					"xpos"	"0"
+					"ypos"	"130"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"18"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#TF_NotCompleted"
+					"textAlignment"	"center"
+					"font"	"HudFontSmall"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+		}
+	}
+}

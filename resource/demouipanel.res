@@ -1,0 +1,152 @@
+"Resource/UI/DemoUIPanel.res"
+{
+	"ControlName" "EditablePanel"
+	"fieldName" "DemoUIPanel"
+	"x" "0"
+	"y" "0"
+	"wide" "f0"
+	"tall" "f0"
+	"visible" "1"
+	"enabled" "1"
+	"paintbackground" "1"
+	"bgcolor_override" "34 34 34 230"
+	"border" "ForgeBorderInset"
+
+	"DemoHeader"
+	{
+		"ControlName" "Panel"
+		"fieldName" "DemoHeader"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"wide" "400"
+		"tall" "2"
+		"paintbackground" "1"
+		"bgcolor_override" "217 122 22 255"
+	}
+
+	"DemoTitle"
+	{
+		"ControlName" "Label"
+		"fieldName" "DemoTitle"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "12"
+		"ypos" "12"
+		"wide" "376"
+		"tall" "24"
+		"text" "#Demo_Recording"
+		"font" "Label.Font"
+		"fgcolor" "217 122 22 255"
+	}
+
+	"DemoRecordingIcon"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "DemoRecordingIcon"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "12"
+		"ypos" "45"
+		"wide" "16"
+		"tall" "16"
+		"image" "hud/demo_recording"
+		"scaleImage" "1"
+		"keepAspect" "1"
+	}
+
+	"DemoStatusLabel"
+	{
+		"ControlName" "Label"
+		"fieldName" "DemoStatusLabel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "34"
+		"ypos" "44"
+		"wide" "354"
+		"tall" "18"
+		"text" ""
+		"font" "Default.Font"
+		"fgcolor" "245 245 245 255"
+	}
+
+	"DemoTimeLabel"
+	{
+		"ControlName" "Label"
+		"fieldName" "DemoTimeLabel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "12"
+		"ypos" "68"
+		"wide" "376"
+		"tall" "18"
+		"text" ""
+		"font" "Default.Font"
+		"fgcolor" "184 184 184 255"
+	}
+
+	"DemoFileLabel"
+	{
+		"ControlName" "Label"
+		"fieldName" "DemoFileLabel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "12"
+		"ypos" "90"
+		"wide" "376"
+		"tall" "16"
+		"text" ""
+		"font" "HudFontSmall"
+		"fgcolor" "119 119 119 255"
+	}
+
+	"DemoSizeLabel"
+	{
+		"ControlName" "Label"
+		"fieldName" "DemoSizeLabel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "12"
+		"ypos" "108"
+		"wide" "376"
+		"tall" "16"
+		"text" ""
+		"font" "HudFontSmall"
+		"fgcolor" "119 119 119 255"
+	}
+
+	"DemoDivider"
+	{
+		"ControlName" "Panel"
+		"fieldName" "DemoDivider"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "12"
+		"ypos" "134"
+		"wide" "376"
+		"tall" "1"
+		"paintbackground" "1"
+		"bgcolor_override" "59 59 59 255"
+	}
+
+	"DemoToggleButton"
+	{
+		"ControlName" "Button"
+		"fieldName" "DemoToggleButton"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "12"
+		"ypos" "148"
+		"wide" "120"
+		"tall" "30"
+		"text" "#Demo_Stop"
+		"font" "Button.Font"
+		"fgcolor" "245 245 245 255"
+		"bgcolor" "43 43 43 230"
+		"armedbgcolor" "217 122 22 200"
+		"depressedbgcolor" "217 122 22 255"
+		"border" "ForgeButtonBorder"
+		"textAlignment" "center"
+	}
+}

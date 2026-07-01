@@ -1,0 +1,77 @@
+"Resource/UI/LoadingDialogNoBanner.res"
+{
+	"ControlName" "EditablePanel"
+	"fieldName" "LoadingDialogNoBanner"
+	"x" "0"
+	"y" "0"
+	"wide" "f0"
+	"tall" "f0"
+	"visible" "1"
+	"enabled" "1"
+	"paintbackground" "1"
+	"bgcolor_override" "24 24 24 255"
+
+	"LoadingIcon"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "LoadingIcon"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "c-48"
+		"ypos" "c-120"
+		"wide" "96"
+		"tall" "96"
+		"image" "gfx/misc/loading"
+		"scaleImage" "1"
+		"keepAspect" "1"
+	}
+
+	"MapName"
+	{
+		"ControlName" "Label"
+		"fieldName" "MapName"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "c-60"
+		"wide" "f0"
+		"tall" "28"
+		"text" ""
+		"font" "Title.Font"
+		"fgcolor" "217 122 22 255"
+		"contentAlignment" "center"
+		"textAlignment" "center"
+	}
+
+	"LoadingProgressBar"
+	{
+		"ControlName" "ProgressBar"
+		"fieldName" "LoadingProgressBar"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "c-220"
+		"ypos" "c-20"
+		"wide" "440"
+		"tall" "22"
+		"progress_color" "217 122 22 255"
+		"bgcolor" "43 43 43 230"
+		"border" "ForgeBorderInset"
+	}
+
+	"LoadingText"
+	{
+		"ControlName" "Label"
+		"fieldName" "LoadingText"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "c+15"
+		"wide" "f0"
+		"tall" "20"
+		"text" ""
+		"font" "Label.Font"
+		"fgcolor" "184 184 184 255"
+		"contentAlignment" "center"
+		"textAlignment" "center"
+	}
+}

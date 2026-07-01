@@ -1,0 +1,102 @@
+"Resource/UI/forge_base/Chat_base.res"
+{
+	"ChatBase"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ChatBase"
+		"xpos"	"8"
+		"ypos"	"8"
+		"zpos"	"2"
+		"wide"	"400"
+		"tall"	"300"
+		"visible"	"1"
+		"enabled"	"1"
+
+		"ChatBackground"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"ChatBackground"
+			"xpos"	"0"
+			"ypos"	"0"
+			"zpos"	"0"
+			"wide"	"400"
+			"tall"	"300"
+			"visible"	"1"
+			"enabled"	"1"
+			"image"	"../VGUI/white"
+			"drawColor"	"0 0 0 180"
+		}
+
+		"ChatHistory"
+		{
+			"ControlName"	"RichText"
+			"fieldName"	"ChatHistory"
+			"xpos"	"4"
+			"ypos"	"4"
+			"zpos"	"2"
+			"wide"	"392"
+			"tall"	"248"
+			"visible"	"1"
+			"enabled"	"1"
+			"font"	"DefaultFont"
+			"fgcolor"	"245 245 245 255"
+			"bgcolor"	"0 0 0 0"
+			"wrap"	"1"
+			"maxchars"	"-1"
+			"allowhtml"	"1"
+		}
+
+		"ChatModeLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"	"ChatModeLabel"
+			"xpos"	"4"
+			"ypos"	"256"
+			"zpos"	"2"
+			"wide"	"60"
+			"tall"	"20"
+			"visible"	"1"
+			"enabled"	"1"
+			"labelText"	"#TF_Chat"
+			"textAlignment"	"west"
+			"font"	"DefaultBold"
+			"fgcolor"	"217 122 22 255"
+		}
+
+		"ChatInput"
+		{
+			"ControlName"	"TextEntry"
+			"fieldName"	"ChatInput"
+			"xpos"	"4"
+			"ypos"	"276"
+			"zpos"	"2"
+			"wide"	"392"
+			"tall"	"20"
+			"visible"	"1"
+			"enabled"	"1"
+			"font"	"DefaultFont"
+			"fgcolor"	"245 245 245 255"
+			"bgcolor"	"43 43 43 230"
+			"cursorcolor"	"245 245 245 255"
+		}
+
+		"ChatModeToggle"
+		{
+			"ControlName"	"Button"
+			"fieldName"	"ChatModeToggle"
+			"xpos"	"64"
+			"ypos"	"256"
+			"zpos"	"2"
+			"wide"	"60"
+			"tall"	"20"
+			"visible"	"1"
+			"enabled"	"1"
+			"textAlignment"	"west"
+			"font"	"DefaultFont"
+			"labelText"	"#TF_ChatTeam"
+			"fgcolor"	"184 184 184 255"
+			"bgcolor"	"0 0 0 0"
+			"armedfgcolor"	"241 163 58 255"
+		}
+	}
+}

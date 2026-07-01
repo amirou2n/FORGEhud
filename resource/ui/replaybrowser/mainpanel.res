@@ -1,0 +1,266 @@
+"Resource/UI/replaybrowser/Mainpanel.res"
+{
+	"ReplayBrowserMain"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ReplayBrowserMain"
+		"xpos"	"0"
+		"ypos"	"0"
+		"zpos"	"2"
+		"wide"	"f0"
+		"tall"	"f0"
+		"visible"	"1"
+		"enabled"	"1"
+
+		"Background"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"Background"
+			"xpos"	"0"
+			"ypos"	"0"
+			"zpos"	"-1"
+			"wide"	"f0"
+			"tall"	"f0"
+			"visible"	"1"
+			"enabled"	"1"
+			"image"	"../VGUI/white"
+			"drawColor"	"24 24 24 255"
+		}
+
+		"MainContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"	"MainContainer"
+			"xpos"	"c-480"
+			"ypos"	"40"
+			"zpos"	"2"
+			"wide"	"960"
+			"tall"	"f0-80"
+			"visible"	"1"
+			"enabled"	"1"
+
+			"ContainerBackground"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"	"ContainerBackground"
+				"xpos"	"0"
+				"ypos"	"0"
+				"zpos"	"0"
+				"wide"	"960"
+				"tall"	"f0-80"
+				"visible"	"1"
+				"enabled"	"1"
+				"image"	"../VGUI/white"
+				"drawColor"	"34 34 34 230"
+			}
+
+			"ContainerBorder"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"	"ContainerBorder"
+				"xpos"	"0"
+				"ypos"	"0"
+				"zpos"	"1"
+				"wide"	"960"
+				"tall"	"f0-80"
+				"visible"	"1"
+				"enabled"	"1"
+				"image"	"../VGUI/white"
+				"drawColor"	"59 59 59 255"
+			}
+
+			"HeaderBar"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"HeaderBar"
+				"xpos"	"0"
+				"ypos"	"0"
+				"zpos"	"2"
+				"wide"	"960"
+				"tall"	"48"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"HeaderBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"HeaderBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"960"
+					"tall"	"48"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"43 43 43 230"
+				}
+
+				"HeaderBorder"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"HeaderBorder"
+					"xpos"	"0"
+					"ypos"	"47"
+					"zpos"	"1"
+					"wide"	"960"
+					"tall"	"1"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"217 122 22 255"
+				}
+
+				"TitleLabel"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"TitleLabel"
+					"xpos"	"16"
+					"ypos"	"10"
+					"zpos"	"2"
+					"wide"	"200"
+					"tall"	"28"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#Replay_Browser"
+					"textAlignment"	"west"
+					"font"	"TitleFont"
+					"fgcolor"	"217 122 22 255"
+				}
+
+				"CloseButton"
+				{
+					"ControlName"	"Button"
+					"fieldName"	"CloseButton"
+					"xpos"	"910"
+					"ypos"	"8"
+					"zpos"	"2"
+					"wide"	"40"
+					"tall"	"32"
+					"visible"	"1"
+					"enabled"	"1"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"labelText"	"X"
+					"fgcolor"	"245 245 245 255"
+					"bgcolor"	"59 59 59 255"
+					"armedbgcolor"	"217 122 22 255"
+				}
+			}
+
+			"ReplayList"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"ReplayList"
+				"xpos"	"16"
+				"ypos"	"64"
+				"zpos"	"2"
+				"wide"	"928"
+				"tall"	"f0-200"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"Scrollbar"
+				{
+					"ControlName"	"ScrollBar"
+					"fieldName"	"Scrollbar"
+					"xpos"	"916"
+					"ypos"	"0"
+					"zpos"	"3"
+					"wide"	"12"
+					"tall"	"f0"
+					"visible"	"1"
+					"enabled"	"1"
+					"AutoResize"	"1"
+					"ScrollBarButtons"	"1"
+					"fgcolor"	"59 59 59 255"
+					"bgcolor"	"43 43 43 230"
+				}
+			}
+
+			"BottomBar"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"	"BottomBar"
+				"xpos"	"0"
+				"ypos"	"f0-128"
+				"zpos"	"2"
+				"wide"	"960"
+				"tall"	"48"
+				"visible"	"1"
+				"enabled"	"1"
+
+				"BottomBackground"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"	"BottomBackground"
+					"xpos"	"0"
+					"ypos"	"0"
+					"zpos"	"0"
+					"wide"	"960"
+					"tall"	"48"
+					"visible"	"1"
+					"enabled"	"1"
+					"image"	"../VGUI/white"
+					"drawColor"	"43 43 43 230"
+				}
+
+				"PlayButton"
+				{
+					"ControlName"	"Button"
+					"fieldName"	"PlayButton"
+					"xpos"	"16"
+					"ypos"	"8"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"32"
+					"visible"	"1"
+					"enabled"	"1"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"labelText"	"#Replay_Play"
+					"fgcolor"	"245 245 245 255"
+					"bgcolor"	"217 122 22 255"
+					"armedbgcolor"	"241 163 58 255"
+					"depressedbgcolor"	"180 90 10 255"
+				}
+
+				"DeleteButton"
+				{
+					"ControlName"	"Button"
+					"fieldName"	"DeleteButton"
+					"xpos"	"148"
+					"ypos"	"8"
+					"zpos"	"2"
+					"wide"	"120"
+					"tall"	"32"
+					"visible"	"1"
+					"enabled"	"1"
+					"textAlignment"	"center"
+					"font"	"DefaultBold"
+					"labelText"	"#Replay_Delete"
+					"fgcolor"	"245 245 245 255"
+					"bgcolor"	"59 59 59 255"
+					"armedbgcolor"	"217 122 22 255"
+				}
+
+				"ReplayCount"
+				{
+					"ControlName"	"Label"
+					"fieldName"	"ReplayCount"
+					"xpos"	"400"
+					"ypos"	"12"
+					"zpos"	"2"
+					"wide"	"160"
+					"tall"	"24"
+					"visible"	"1"
+					"enabled"	"1"
+					"labelText"	"#Replay_Count"
+					"textAlignment"	"center"
+					"font"	"DefaultFont"
+					"fgcolor"	"184 184 184 255"
+				}
+			}
+		}
+	}
+}
